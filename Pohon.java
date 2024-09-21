@@ -34,13 +34,11 @@ class Main {
         pohon1.Nama = "Mangga";
         pohon1.WarnaDaun = "Hijau";
         pohon1.JenisAkar = "Akar Tunggang";
-        pohon1.Berbuah = true;
 
         // Menampilkan informasi pohon
         System.out.println("Informasi Pohon: ");
         pohon1.tampilkanJenis();
         pohon1.tampilkanWarnaDaun();
         pohon1.tampilkanJenisAkar();
-        pohon1.tampilkanBerbuah();
     }
 }
